@@ -5,16 +5,15 @@ const letterGradeToGPA = new Map([
 // Future GPA
 
 function calcFutureGPA( currGrades, currCredits, futureGrades, futureCredits ) {
-    const n1 = currGrades.length, n2 = futureGrades.length
-    let currCreditSum = 0, futureCreditSum = 0, GPASum = 0
+    var currCreditSum = 0, futureCreditSum = 0, GPASum = 0
 
-    for( let i = 0; i < n1; i++ ) {
-        GPASum += letterGradeToGPA.get( currGrades[i] ) * currCredits[i];
-        currCreditSum += currCredits[i];
+    for( let i = 0; i < currGrades.length; i++ ) {
+        GPASum += letterGradeToGPA.get( currGrades[i] ) * currCredits[i]
+        currCreditSum += currCredits[i]
     }
-    for( let i = 0; i < n2; i++ ) {
-        GPASum += letterGradeToGPA.get( futureGrades[i] ) * futureCredits[i];
-        futureCreditSum += futureCredits[i];
+    for( let i = 0; i < futureGrades.length; i++ ) {
+        GPASum += letterGradeToGPA.get( futureGrades[i] ) * futureCredits[i]
+        futureCreditSum += futureCredits[i]
     }
 
     return GPASum / ( currCreditSum + futureCreditSum )
@@ -32,28 +31,38 @@ function FutureGPAComponent() {
 
 // Desired GPA
 
-function calcDesiredGPA( currGrades, currCredits, desiredGPA ) {
+function calcDesiredGPA( currGrades, currCredits, desiredGPA, remainingCredits ) {
     desiredGPA = desiredGPA.toFixed(2)
     if( desiredGPA > 4 || desiredGPA < 0 ) {
         return "Valid GPA range is between 0 and 4"
     }
 
-    const n1 = currGrades.length
-    let currCreditSum = 0, GPASum = 0
+    var currCreditSum = 0, GPASum = 0
 
-    for( let i = 0; i < n1; i++ ) {
-        GPASum += letterGradeToGPA.get( currGrades[i] ) * currCredits[i];
-        currCreditSum += currCredits[i];
+    for( let i = 0; i < currGrades.length; i++ ) {
+        GPASum += letterGradeToGPA.get( currGrades[i] ) * currCredits[i]
+        currCreditSum += currCredits[i]
     }
     
     if( GPASum / currCreditSum >= desiredGPA ) {
         return "Desired GPA met!"
     }
     if( desiredGPA == 4 ) {
-        return "Perfect 4.00 is not longer possible"
+        return "Perfect 4.00 is no longer possible"
     }
 
-    // TODO: determine best classes to take to achieve desired GPA
+    var extraCreditSum = 0, extraCredit = 0
+    while( GPASum / ( currCreditSum + extraCreditSum ) < desiredGPA && extraCreditSum < remainingCredits ) {
+        extraCredit = Math.min( 4, remainingCredits - extraCreditSum )
+        extraCreditSum += extraCredit
+        GPASum += 4 * extraCredit
+    }
+
+    if( extraCreditSum == remainingCredits && GPASum / ( currCreditSum + extraCreditSum ) < desiredGPA ) {
+        return "Not enough credits remaining to achieve desired GPA"
+    }
+
+    return `A in ${extraCreditSum} credits`
 }
 
 function DesiredGPAComponent() {
@@ -61,10 +70,12 @@ function DesiredGPAComponent() {
         <section>
             <h1>Desired GPA</h1>
             { /* TESTING calcDesiredGPA */ }
-            <p>Calculation: { calcDesiredGPA( ['A', 'A'], [3, 3], 4 ) }</p>
+            <p>Calculation: { calcDesiredGPA( ['A', 'A'], [3, 3], 4, 3 ) }</p>
         </section>
     )
 }
+
+// What-If Analysis
 
 export default function WhatIfAnalysis() {
     return (
@@ -73,5 +84,5 @@ export default function WhatIfAnalysis() {
             <FutureGPAComponent />
             <DesiredGPAComponent />
         </section>
-    );
+    )
 }
