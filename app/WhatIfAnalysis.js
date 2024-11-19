@@ -51,9 +51,9 @@ function calcDesiredGPA( currGrades, currCredits, desiredGPA, remainingCredits )
         return "Perfect 4.00 is no longer possible"
     }
 
-    var extraCreditSum = 0, extraCredit = 0
+    var extraCreditSum = 0
     while( GPASum / ( currCreditSum + extraCreditSum ) < desiredGPA && extraCreditSum < remainingCredits ) {
-        extraCredit = Math.min( 4, remainingCredits - extraCreditSum )
+        let extraCredit = Math.min( 4, remainingCredits - extraCreditSum )
         extraCreditSum += extraCredit
         GPASum += 4 * extraCredit
     }
