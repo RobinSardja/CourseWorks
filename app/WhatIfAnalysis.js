@@ -1,3 +1,8 @@
+"use client"
+
+import React, { useState } from 'react'
+import NumberInput from './NumberInput'
+
 const letterGradeToGPA = new Map([
     ['A', 4], ['B', 3], ['C', 2], ['D', 1], ['F', 0]
 ])
@@ -32,7 +37,6 @@ function FutureGPAComponent() {
 // Desired GPA
 
 function calcDesiredGPA( currGrades, currCredits, desiredGPA, remainingCredits ) {
-    desiredGPA = desiredGPA.toFixed(2)
     if( desiredGPA > 4 || desiredGPA < 0 ) {
         return "Valid GPA range is between 0 and 4"
     }
@@ -66,11 +70,17 @@ function calcDesiredGPA( currGrades, currCredits, desiredGPA, remainingCredits )
 }
 
 function DesiredGPAComponent() {
+    const [number, setNumber] = useState('')
+    const onNumberChange = (newNumber) => {
+        setNumber(newNumber)
+    }
+
     return (
         <section>
             <h1>Desired GPA</h1>
             { /* TESTING calcDesiredGPA */ }
-            <p>Calculation: { calcDesiredGPA( ['A', 'A'], [3, 3], 4, 3 ) }</p>
+            <NumberInput number = {number} onNumberChange = {onNumberChange} />
+            <p>Calculation: { calcDesiredGPA( ['A', 'A'], [3, 3], number, 3 ) }</p>
         </section>
     )
 }
