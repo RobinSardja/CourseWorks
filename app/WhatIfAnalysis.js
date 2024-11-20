@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState } from 'react'
-import NumberInput from './NumberInput'
 
 const letterGradeToGPA = new Map([
     ['A', 4], ['B', 3], ['C', 2], ['D', 1], ['F', 0]
@@ -70,17 +69,22 @@ function calcDesiredGPA( currGrades, currCredits, desiredGPA, remainingCredits )
 }
 
 function DesiredGPAComponent() {
-    const [number, setNumber] = useState('')
-    const onNumberChange = (newNumber) => {
-        setNumber(newNumber)
+    const [desiredGPA, setDesiredGPA] = useState('')
+    const onDesiredGPAChange = (event) => {
+        setDesiredGPA(event.target.value)
     }
 
     return (
         <section>
             <h1>Desired GPA</h1>
             { /* TESTING calcDesiredGPA */ }
-            <NumberInput number = {number} onNumberChange = {onNumberChange} />
-            <p>Calculation: { calcDesiredGPA( ['A', 'A'], [3, 3], number, 3 ) }</p>
+            <input
+                type = "number"
+                value = {desiredGPA}
+                onChange = {onDesiredGPAChange}
+                placeholder = "Enter a desired GPA"
+            />
+            <p>Calculation: { calcDesiredGPA( ['A', 'A'], [3, 3], desiredGPA, 3 ) }</p>
         </section>
     )
 }
