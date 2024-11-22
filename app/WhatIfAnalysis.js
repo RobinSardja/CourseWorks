@@ -36,9 +36,10 @@ function FutureGPAComponent() {
 // Desired GPA
 
 function calcDesiredGPA( currGrades, currCredits, desiredGPA, remainingCredits ) {
-    if( desiredGPA > 4 || desiredGPA < 0 ) {
-        return "Valid GPA range is between 0 and 4"
-    }
+    if( !desiredGPA ) return "Please enter a desired GPA"
+
+    desiredGPA = parseFloat(desiredGPA).toFixed(2)
+    if( desiredGPA > 4 || desiredGPA < 0 ) return "Valid GPA range is between 0 and 4"
 
     var currCreditSum = 0, GPASum = 0
 
