@@ -24,11 +24,54 @@ function calcFutureGPA( currGrades, currCredits, futureGrades, futureCredits ) {
 }
 
 function FutureGPAComponent() {
+    const [grades, setGrades] = useState([])
+    const [credits, setCredits] = useState([])
+    const [gradeInput, setGradeInput] = useState('')
+    const [creditInput, setCreditInput] = useState('')
+
+    const isValidGrade = (grade) => ['A', 'B', 'C', 'D', 'F'].includes( grade.toUpperCase() )
+    const isValidCredits = (credits) => ['1', '2', '3', '4'].includes(credits)
+
+    const handleAdd = () => {
+        if( isValidGrade(gradeInput) && isValidCredits(creditInput) ) {
+            setGrades( [...grades, gradeInput.toUpperCase() ] )
+            setCredits( [...credits, parseInt(creditInput) ] )
+            setGradeInput('')
+            setCreditInput('')
+        } else {
+            alert( "Please enter a valid grade (A, B, C, D, F) and credits (1-4)." )
+        }
+    }
+
+    const handleReset = () => {
+        setGrades([])
+        setCredits([])
+    }
+
     return (
         <section>
             <h1>Future GPA</h1>
             { /* TESTING calcFutureGPA */ }
-            <p>Calculation: { calcFutureGPA( ['A', 'A'], [3, 3], ['A', 'A'], [3, 3] ).toFixed(2) }</p>
+            <h1>Grades: {JSON.stringify(grades)}</h1>
+            <h1>Credits: {JSON.stringify(credits)}</h1>
+            <input
+                type = "text"
+                value = {gradeInput}
+                onChange = { (e) => setGradeInput(e.target.value) }
+                placeholder = "Enter grade (A, B, C, D, F)"
+                maxLength = "1"
+            />
+            <input
+                type = "number"
+                value = {creditInput}
+                onChange = { (e) => setCreditInput(e.target.value) }
+                placeholder = "Credit"
+                min = "1"
+                max = "4"
+            />
+            <button onClick = {handleAdd} >Add</button>
+            <button onClick = {handleReset} >Reset</button>
+            <p>Calculation: { calcFutureGPA( ['A', 'A'], [3, 3], grades, credits ).toFixed(2) }</p>
         </section>
     )
 }
@@ -71,9 +114,6 @@ function calcDesiredGPA( currGrades, currCredits, desiredGPA, remainingCredits )
 
 function DesiredGPAComponent() {
     const [desiredGPA, setDesiredGPA] = useState('')
-    const onDesiredGPAChange = (event) => {
-        setDesiredGPA(event.target.value)
-    }
 
     return (
         <section>
@@ -82,7 +122,7 @@ function DesiredGPAComponent() {
             <input
                 type = "number"
                 value = {desiredGPA}
-                onChange = {onDesiredGPAChange}
+                onChange = { (e) => setDesiredGPA(e.target.value) }
                 placeholder = "Enter a desired GPA"
             />
             <p>Calculation: { calcDesiredGPA( ['A', 'A'], [3, 3], desiredGPA, 3 ) }</p>
