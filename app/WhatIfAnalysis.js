@@ -26,6 +26,7 @@ function calcFutureGPA( currGrades, currCredits, futureGrades, futureCredits ) {
 function FutureGPAComponent() {
     const [grades, setGrades] = useState([])
     const [credits, setCredits] = useState([])
+    const [futureClasses, setFutureClasses] = useState([])
     const [gradeInput, setGradeInput] = useState('')
     const [creditInput, setCreditInput] = useState('')
 
@@ -36,6 +37,7 @@ function FutureGPAComponent() {
         if( isValidGrade(gradeInput) && isValidCredits(creditInput) ) {
             setGrades( [...grades, gradeInput.toUpperCase() ] )
             setCredits( [...credits, parseInt(creditInput) ] )
+            setFutureClasses( [...futureClasses, [gradeInput.toUpperCase(), parseInt(creditInput)] ] )
             setGradeInput('')
             setCreditInput('')
         } else {
@@ -46,14 +48,21 @@ function FutureGPAComponent() {
     const handleReset = () => {
         setGrades([])
         setCredits([])
+        setFutureClasses([])
     }
 
     return (
         <section>
             <h1>Future GPA</h1>
             { /* TESTING calcFutureGPA */ }
-            <h1>Grades: {JSON.stringify(grades)}</h1>
-            <h1>Credits: {JSON.stringify(credits)}</h1>
+            <h2>Future classes</h2>
+            <ul>
+                { futureClasses.map( (classInfo, index) => (
+                    <li key = {index}>
+                        Grade: { classInfo[0] }, Credits: { classInfo[1] }
+                    </li>
+                ))}
+            </ul>
             <input
                 type = "text"
                 value = {gradeInput}
