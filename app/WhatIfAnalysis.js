@@ -109,7 +109,7 @@ function calcDesiredGPA( currGrades, currCredits, desiredGPA, remainingCredits )
         return "Not enough credits remaining to achieve desired GPA"
     }
 
-    return `A in ${extraCreditSum} additional credits will result in a rounded up GPA of ${( GPASum / ( currCreditSum + extraCreditSum ) ).toFixed(2)}`
+    return `A in ${extraCreditSum} additional credits will result in a rounded down GPA of ${ Math.floor( ( GPASum / ( currCreditSum + extraCreditSum ) ) * 100 ) / 100 }`
 }
 
 function DesiredGPAComponent() {
