@@ -78,8 +78,9 @@ function FutureGPAComponent() {
                 min = "1"
                 max = "4"
             />
-            <button onClick = {handleAdd} >Add</button>
-            <button onClick = {handleReset} >Reset</button>
+            <br />
+            <button onClick = {handleAdd} >Add class</button>
+            <button onClick = {handleReset} >Reset future class list</button>
             <p>Calculation: { calcFutureGPA( ['A', 'A'], [3, 3], grades, credits ).toFixed(2) }</p>
         </section>
     )
