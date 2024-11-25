@@ -1,10 +1,13 @@
 "use client"
 
-import React, { useState } from 'react'
+import { useState } from "react"
 
 const letterGradeToGPA = new Map([
     ['A', 4], ['B', 3], ['C', 2], ['D', 1], ['F', 0]
 ])
+
+const validGrades = ['A', 'B', 'C', 'D', 'F']
+const validCredits = ['1', '2', '3', '4']
 
 // Future GPA
 
@@ -30,8 +33,8 @@ function FutureGPAComponent() {
     const [gradeInput, setGradeInput] = useState('')
     const [creditInput, setCreditInput] = useState('')
 
-    const isValidGrade = (grade) => ['A', 'B', 'C', 'D', 'F'].includes( grade.toUpperCase() )
-    const isValidCredits = (credits) => ['1', '2', '3', '4'].includes(credits)
+    const isValidGrade = (grade) => validGrades.includes( grade.toUpperCase() )
+    const isValidCredits = (credits) => validCredits.includes(credits)
 
     const handleAdd = () => {
         if( isValidGrade(gradeInput) && isValidCredits(creditInput) ) {
@@ -133,7 +136,9 @@ function DesiredGPAComponent() {
                 type = "number"
                 value = {desiredGPA}
                 onChange = { (e) => setDesiredGPA(e.target.value) }
-                placeholder = "Enter a desired GPA"
+                placeholder = "GPA"
+                min = "0"
+                max = "4"
             />
             <p>Calculation: { calcDesiredGPA( ['A', 'A'], [3, 3], desiredGPA, 3 ) }</p>
         </section>
