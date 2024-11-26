@@ -67,6 +67,7 @@ function FutureGPAComponent() {
                 ))}
             </ul>
             <input
+                className = "h-8 w-64 outline"
                 type = "text"
                 value = {gradeInput}
                 onChange = { (e) => setGradeInput(e.target.value) }
@@ -74,16 +75,17 @@ function FutureGPAComponent() {
                 maxLength = "1"
             />
             <input
+                className = "h-8 w-64 outline"
                 type = "number"
                 value = {creditInput}
                 onChange = { (e) => setCreditInput(e.target.value) }
-                placeholder = "Credit"
+                placeholder = "Enter number of credits (1, 2, 3, 4)"
                 min = "1"
                 max = "4"
             />
             <br />
-            <button onClick = {handleAdd} >Add class</button>
-            <button onClick = {handleReset} >Reset future class list</button>
+            <button className = "h-8 w-64 outline" onClick = {handleAdd} >Add class</button>
+            <button className = "h-8 w-64 outline" onClick = {handleReset} >Reset future classes list</button>
             <p>Calculation: { calcFutureGPA( ['A', 'A'], [3, 3], grades, credits ).toFixed(2) }</p>
         </section>
     )
@@ -133,10 +135,11 @@ function DesiredGPAComponent() {
             <h1>Desired GPA</h1>
             { /* TESTING calcDesiredGPA */ }
             <input
+                className = "w-64 outline"
                 type = "number"
                 value = {desiredGPA}
                 onChange = { (e) => setDesiredGPA(e.target.value) }
-                placeholder = "GPA"
+                placeholder = "Enter desired GPA (0 - 4)"
                 min = "0"
                 max = "4"
             />
