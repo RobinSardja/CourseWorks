@@ -6,9 +6,6 @@ const letterGradeToGPA = new Map([
     ['A', 4], ['B', 3], ['C', 2], ['D', 1], ['F', 0]
 ])
 
-const validGrades = ['A', 'B', 'C', 'D', 'F']
-const validCredits = ['1', '2', '3', '4']
-
 // Future GPA
 
 function calcFutureGPA( currGrades, currCredits, futureGrades, futureCredits ) {
@@ -30,29 +27,8 @@ function FutureGPAComponent() {
     const [grades, setGrades] = useState([])
     const [credits, setCredits] = useState([])
     const [futureClasses, setFutureClasses] = useState([])
-    const [gradeInput, setGradeInput] = useState('')
-    const [creditInput, setCreditInput] = useState('')
-
-    const isValidGrade = (grade) => validGrades.includes( grade.toUpperCase() )
-    const isValidCredits = (credits) => validCredits.includes(credits)
-
-    const handleAdd = () => {
-        if( isValidGrade(gradeInput) && isValidCredits(creditInput) ) {
-            setGrades( [...grades, gradeInput.toUpperCase() ] )
-            setCredits( [...credits, parseInt(creditInput) ] )
-            setFutureClasses( [...futureClasses, [gradeInput.toUpperCase(), parseInt(creditInput)] ] )
-            setGradeInput('')
-            setCreditInput('')
-        } else {
-            alert( "Please enter a valid grade (A, B, C, D, F) and credits (1-4)." )
-        }
-    }
-
-    const handleReset = () => {
-        setGrades([])
-        setCredits([])
-        setFutureClasses([])
-    }
+    const [gradeInput, setGradeInput] = useState('A')
+    const [creditInput, setCreditInput] = useState(4)
 
     return (
         <section>
@@ -66,26 +42,44 @@ function FutureGPAComponent() {
                     </li>
                 ))}
             </ul>
-            <input
+            <select
                 className = "h-8 w-64 outline"
-                type = "text"
                 value = {gradeInput}
-                onChange = { (e) => setGradeInput(e.target.value) }
-                placeholder = "Enter grade (A, B, C, D, F)"
-                maxLength = "1"
-            />
-            <input
+                onChange = {(e) => setGradeInput( e.target.value )}
+            >
+                <option value = 'A'>A</option>
+                <option value = 'B'>B</option>
+                <option value = 'C'>C</option>
+                <option value = 'D'>D</option>
+                <option value = 'F'>F</option>
+            </select>
+            <select
                 className = "h-8 w-64 outline"
-                type = "number"
                 value = {creditInput}
-                onChange = { (e) => setCreditInput(e.target.value) }
-                placeholder = "Enter number of credits (1, 2, 3, 4)"
-                min = "1"
-                max = "4"
-            />
+                onChange = {(e) => setCreditInput( parseInt(e.target.value) )}
+            >
+                <option value = '4'>4</option>
+                <option value = '3'>3</option>
+                <option value = '2'>2</option>
+                <option value = '1'>1</option>
+            </select>
             <br />
-            <button className = "h-8 w-64 outline" onClick = {handleAdd} >Add class</button>
-            <button className = "h-8 w-64 outline" onClick = {handleReset} >Reset future classes list</button>
+            <button
+                className = "h-8 w-64 outline"
+                onClick = { () => {
+                    setGrades( [...grades, gradeInput ] )
+                    setCredits( [...credits, creditInput] )
+                    setFutureClasses( [...futureClasses, [gradeInput, creditInput] ] )
+                }}
+            >Add class</button>
+            <button
+                className = "h-8 w-64 outline"
+                onClick = { () => {
+                    setGrades([])
+                    setCredits([])
+                    setFutureClasses([])
+                }}
+            >Reset future classes list</button>
             <p>Calculation: { calcFutureGPA( ['A', 'A'], [3, 3], grades, credits ).toFixed(2) }</p>
         </section>
     )
