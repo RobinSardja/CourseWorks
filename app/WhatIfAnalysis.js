@@ -33,7 +33,6 @@ function FutureGPAComponent() {
     return (
         <section>
             <h1>Future GPA</h1>
-            { /* TESTING calcFutureGPA */ }
             <h2>Future classes</h2>
             <ul>
                 { futureClasses.map( (classInfo, index) => (
@@ -53,6 +52,7 @@ function FutureGPAComponent() {
                 <option value = 'D'>D</option>
                 <option value = 'F'>F</option>
             </select>
+            <br />
             <select
                 className = "h-8 w-64 outline"
                 value = {creditInput}
@@ -72,6 +72,7 @@ function FutureGPAComponent() {
                     setFutureClasses( [...futureClasses, [gradeInput, creditInput] ] )
                 }}
             >Add class</button>
+            <br />
             <button
                 className = "h-8 w-64 outline"
                 onClick = { () => {
@@ -80,7 +81,7 @@ function FutureGPAComponent() {
                     setFutureClasses([])
                 }}
             >Reset future classes list</button>
-            <p>Calculation: { calcFutureGPA( ['A', 'A'], [3, 3], grades, credits ).toFixed(2) }</p>
+            <p>Calculation: { calcFutureGPA( ['A', 'F'], [3, 3], grades, credits ).toFixed(2) }</p>
         </section>
     )
 }
@@ -127,17 +128,27 @@ function DesiredGPAComponent() {
     return (
         <section>
             <h1>Desired GPA</h1>
-            { /* TESTING calcDesiredGPA */ }
             <input
-                className = "w-64 outline"
+                className = "h-8 w-64 outline"
                 type = "number"
                 value = {desiredGPA}
                 onChange = { (e) => setDesiredGPA(e.target.value) }
                 placeholder = "Enter desired GPA (0 - 4)"
                 min = "0"
                 max = "4"
+                step = "0.5"
             />
-            <p>Calculation: { calcDesiredGPA( ['A', 'A'], [3, 3], desiredGPA, 3 ) }</p>
+            <br />
+            <input
+                className = "h-8 w-64"
+                type = "range"
+                value = {desiredGPA}
+                onChange = { (e) => setDesiredGPA(e.target.value) }
+                min = "0"
+                max = "4"
+                step = "0.01"
+            />
+            <p>Calculation: { calcDesiredGPA( ['A', 'F'], [3, 3], desiredGPA, 30 ) }</p>
         </section>
     )
 }
