@@ -146,7 +146,7 @@ function DesiredGPAComponent() {
                 onChange = { (e) => setDesiredGPA(e.target.value) }
                 min = "0"
                 max = "4"
-                step = "0.01"
+                step = "0.1"
             />
             <p>Calculation: { calcDesiredGPA( ['A', 'F'], [3, 3], desiredGPA, 30 ) }</p>
         </section>
