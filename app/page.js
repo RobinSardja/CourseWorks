@@ -1,10 +1,5 @@
-import WhatIfAnalysis from "./WhatIfAnalysis"
+import LoginPage from './login/page'
 
 export default function Home() {
-    return (
-        <section>
-            <h1>CourseWorks</h1>
-            <WhatIfAnalysis />
-        </section>
-    );
+    return <LoginPage />
 }
