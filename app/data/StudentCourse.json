@@ -1,0 +1,506 @@
+[
+ {
+   "StudentID": "U1",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2233,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U1",
+   "CoursePrefix": "EGN",
+   "CourseNumber": 3420,
+   "Semester": "S",
+   "YearTaken": 2019,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U1",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4104,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U1",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4100,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U1",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Semester": "S",
+   "YearTaken": 2020,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U3",
+   "CoursePrefix": "ARH",
+   "CourseNumber": 3001,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U3",
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Semester": "S",
+   "YearTaken": 2019,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U3",
+   "CoursePrefix": "EEL",
+   "CourseNumber": 4914,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U5",
+   "CoursePrefix": "EGN",
+   "CourseNumber": 3420,
+   "Semester": "S",
+   "YearTaken": 2019,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U5",
+   "CoursePrefix": "PHY",
+   "CourseNumber": 2048,
+   "Semester": "U",
+   "YearTaken": 2019,
+   "Grade": "F"
+ },
+ {
+   "StudentID": "U5",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4104,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U5",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U5",
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Semester": "S",
+   "YearTaken": 2020,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U5",
+   "CoursePrefix": "ART",
+   "CourseNumber": 3635,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U5",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 3433,
+   "Semester": "F",
+   "YearTaken": 2020,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U5",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2003,
+   "Semester": "F",
+   "YearTaken": 2020,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U6",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Semester": "S",
+   "YearTaken": 2020,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U6",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U6",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 3433,
+   "Semester": "F",
+   "YearTaken": 2020,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U7",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2233,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U7",
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Semester": "S",
+   "YearTaken": 2019,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U7",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4100,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U7",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Semester": "S",
+   "YearTaken": 2020,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U7",
+   "CoursePrefix": "ARH",
+   "CourseNumber": 3001,
+   "Semester": "U",
+   "YearTaken": 2020,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U7",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2003,
+   "Semester": "F",
+   "YearTaken": 2020,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U7",
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Semester": "S",
+   "YearTaken": 2020,
+   "Grade": "D"
+ },
+ {
+   "StudentID": "U7",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U9",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2233,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "F"
+ },
+ {
+   "StudentID": "U9",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2233,
+   "Semester": "S",
+   "YearTaken": 2020,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U9",
+   "CoursePrefix": "ARH",
+   "CourseNumber": 3001,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U9",
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Semester": "S",
+   "YearTaken": 2019,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U9",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4104,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U9",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U9",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U11",
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Semester": "F",
+   "YearTaken": 2020,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U11",
+   "CoursePrefix": "ART",
+   "CourseNumber": 3635,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U11",
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Semester": "S",
+   "YearTaken": 2019,
+   "Grade": "I"
+ },
+ {
+   "StudentID": "U11",
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Semester": "S",
+   "YearTaken": 2020,
+   "Grade": "D"
+ },
+ {
+   "StudentID": "U11",
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Semester": "F",
+   "YearTaken": 2020,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U11",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U11",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 3433,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U11",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4104,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U12",
+   "CoursePrefix": "ARH",
+   "CourseNumber": 3001,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U12",
+   "CoursePrefix": "EGN",
+   "CourseNumber": 3420,
+   "Semester": "S",
+   "YearTaken": 2019,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U12",
+   "CoursePrefix": "PHY",
+   "CourseNumber": 2048,
+   "Semester": "U",
+   "YearTaken": 2019,
+   "Grade": "D"
+ },
+ {
+   "StudentID": "U12",
+   "CoursePrefix": "EEL",
+   "CourseNumber": 4914,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U12",
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Semester": "S",
+   "YearTaken": 2020,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U13",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4104,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U13",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Semester": "U",
+   "YearTaken": 2019,
+   "Grade": "F"
+ },
+ {
+   "StudentID": "U13",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "D"
+ },
+ {
+   "StudentID": "U13",
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Semester": "S",
+   "YearTaken": 2020,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U13",
+   "CoursePrefix": "PHY",
+   "CourseNumber": 2048,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "C"
+ },
+ {
+   "StudentID": "U14",
+   "CoursePrefix": "EEL",
+   "CourseNumber": 4914,
+   "Semester": "S",
+   "YearTaken": 2019,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U14",
+   "CoursePrefix": "EGN",
+   "CourseNumber": 3420,
+   "Semester": "S",
+   "YearTaken": 2021,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U14",
+   "CoursePrefix": "PHY",
+   "CourseNumber": 2048,
+   "Semester": "U",
+   "YearTaken": 2019,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U17",
+   "CoursePrefix": "PHY",
+   "CourseNumber": 2048,
+   "Semester": "U",
+   "YearTaken": 2019,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U17",
+   "CoursePrefix": "ART",
+   "CourseNumber": 3635,
+   "Semester": "F",
+   "YearTaken": 2021,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U20",
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Semester": "U",
+   "YearTaken": 2021,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U20",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U20",
+   "CoursePrefix": "ART",
+   "CourseNumber": 3635,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "A"
+ },
+ {
+   "StudentID": "U20",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 3433,
+   "Semester": "F",
+   "YearTaken": 2019,
+   "Grade": "B"
+ },
+ {
+   "StudentID": "U20",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2003,
+   "Semester": "S",
+   "YearTaken": 2020,
+   "Grade": "F"
+ },
+ {
+   "StudentID": "U20",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2003,
+   "Semester": "F",
+   "YearTaken": 2020,
+   "Grade": "B"
+ }
+]

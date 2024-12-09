@@ -1,0 +1,102 @@
+[
+ {
+   "StudentID": "U1",
+   "Gender": "F",
+   "Major": "CyS"
+ },
+ {
+   "StudentID": "U2",
+   "Gender": "F",
+   "Major": "MATH"
+ },
+ {
+   "StudentID": "U3",
+   "Gender": "M",
+   "Major": "EE"
+ },
+ {
+   "StudentID": "U4",
+   "Gender": "F",
+   "Major": "CyS"
+ },
+ {
+   "StudentID": "U5",
+   "Gender": "M",
+   "Major": "IT"
+ },
+ {
+   "StudentID": "U6",
+   "Gender": "M",
+   "Major": "IT"
+ },
+ {
+   "StudentID": "U7",
+   "Gender": "M",
+   "Major": "CyS"
+ },
+ {
+   "StudentID": "U8",
+   "Gender": "M",
+   "Major": "EE"
+ },
+ {
+   "StudentID": "U9",
+   "Gender": "F",
+   "Major": "CyS"
+ },
+ {
+   "StudentID": "U10",
+   "Gender": "F",
+   "Major": "MATH"
+ },
+ {
+   "StudentID": "U11",
+   "Gender": "M",
+   "Major": "IT"
+ },
+ {
+   "StudentID": "U12",
+   "Gender": "F",
+   "Major": "EE"
+ },
+ {
+   "StudentID": "U13",
+   "Gender": "M",
+   "Major": "CyS"
+ },
+ {
+   "StudentID": "U14",
+   "Gender": "M",
+   "Major": "EE"
+ },
+ {
+   "StudentID": "U15",
+   "Gender": "M",
+   "Major": "EE"
+ },
+ {
+   "StudentID": "U16",
+   "Gender": "F",
+   "Major": "IT"
+ },
+ {
+   "StudentID": "U17",
+   "Gender": "F",
+   "Major": "EDU"
+ },
+ {
+   "StudentID": "U18",
+   "Gender": "M",
+   "Major": "EDU"
+ },
+ {
+   "StudentID": "U19",
+   "Gender": "M",
+   "Major": "IT"
+ },
+ {
+   "StudentID": "U20",
+   "Gender": "M",
+   "Major": "CyS"
+ }
+]

@@ -1,0 +1,426 @@
+[
+ {
+   "InstructorID": "T1",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4104,
+   "Credits": 4,
+   "Semester": "S",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T1",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4104,
+   "Credits": 4,
+   "Semester": "F",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T1",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4104,
+   "Credits": 4,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T1",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4104,
+   "Credits": 4,
+   "Semester": "S",
+   "YearTaught": 2021
+ },
+ {
+   "InstructorID": "T1",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Credits": 4,
+   "Semester": "S",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T2",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4100,
+   "Credits": 1,
+   "Semester": "F",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T2",
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4100,
+   "Credits": 1,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T2",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T2",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Credits": 3,
+   "Semester": "S",
+   "YearTaught": 2021
+ },
+ {
+   "InstructorID": "T2",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2021
+ },
+ {
+   "InstructorID": "T4",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2233,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T4",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2233,
+   "Credits": 3,
+   "Semester": "S",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T4",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2003,
+   "Credits": 3,
+   "Semester": "S",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T4",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2003,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T4",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 3433,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T4",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 3433,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T4",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Credits": 4,
+   "Semester": "U",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T4",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Credits": 4,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T5",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2233,
+   "Credits": 3,
+   "Semester": "S",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T5",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2233,
+   "Credits": 3,
+   "Semester": "U",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T5",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Credits": 4,
+   "Semester": "S",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T7",
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Credits": 3,
+   "Semester": "S",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T7",
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Credits": 3,
+   "Semester": "S",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T7",
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T7",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Credits": 3,
+   "Semester": "S",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T7",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Credits": 3,
+   "Semester": "S",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T7",
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T7",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Credits": 4,
+   "Semester": "U",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T7",
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Credits": 4,
+   "Semester": "S",
+   "YearTaught": 2021
+ },
+ {
+   "InstructorID": "T8",
+   "CoursePrefix": "ARH",
+   "CourseNumber": 3001,
+   "Credits": 1,
+   "Semester": "F",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T8",
+   "CoursePrefix": "ARH",
+   "CourseNumber": 3001,
+   "Credits": 1,
+   "Semester": "S",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T8",
+   "CoursePrefix": "ARH",
+   "CourseNumber": 3001,
+   "Credits": 1,
+   "Semester": "U",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T8",
+   "CoursePrefix": "ARH",
+   "CourseNumber": 3001,
+   "Credits": 1,
+   "Semester": "S",
+   "YearTaught": 2021
+ },
+ {
+   "InstructorID": "T8",
+   "CoursePrefix": "ART",
+   "CourseNumber": 3635,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T8",
+   "CoursePrefix": "ART",
+   "CourseNumber": 3635,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T8",
+   "CoursePrefix": "ART",
+   "CourseNumber": 3635,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2021
+ },
+ {
+   "InstructorID": "T9",
+   "CoursePrefix": "EGN",
+   "CourseNumber": 3420,
+   "Credits": 1,
+   "Semester": "S",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T9",
+   "CoursePrefix": "EGN",
+   "CourseNumber": 3420,
+   "Credits": 1,
+   "Semester": "U",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T9",
+   "CoursePrefix": "EGN",
+   "CourseNumber": 3420,
+   "Credits": 1,
+   "Semester": "S",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T9",
+   "CoursePrefix": "EGN",
+   "CourseNumber": 3420,
+   "Credits": 1,
+   "Semester": "S",
+   "YearTaught": 2021
+ },
+ {
+   "InstructorID": "T9",
+   "CoursePrefix": "EEL",
+   "CourseNumber": 4914,
+   "Credits": 4,
+   "Semester": "S",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T9",
+   "CoursePrefix": "EEL",
+   "CourseNumber": 4914,
+   "Credits": 4,
+   "Semester": "F",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T9",
+   "CoursePrefix": "EEL",
+   "CourseNumber": 4914,
+   "Credits": 4,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T9",
+   "CoursePrefix": "EEL",
+   "CourseNumber": 4914,
+   "Credits": 4,
+   "Semester": "S",
+   "YearTaught": 2021
+ },
+ {
+   "InstructorID": "T11",
+   "CoursePrefix": "PHY",
+   "CourseNumber": 2048,
+   "Credits": 3,
+   "Semester": "U",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T11",
+   "CoursePrefix": "PHY",
+   "CourseNumber": 2048,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T11",
+   "CoursePrefix": "PHY",
+   "CourseNumber": 2048,
+   "Credits": 3,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T11",
+   "CoursePrefix": "PHY",
+   "CourseNumber": 2048,
+   "Credits": 3,
+   "Semester": "S",
+   "YearTaught": 2021
+ },
+ {
+   "InstructorID": "T12",
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Credits": 1,
+   "Semester": "S",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T12",
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Credits": 1,
+   "Semester": "F",
+   "YearTaught": 2019
+ },
+ {
+   "InstructorID": "T12",
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Credits": 1,
+   "Semester": "S",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T12",
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Credits": 1,
+   "Semester": "F",
+   "YearTaught": 2020
+ },
+ {
+   "InstructorID": "T12",
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Credits": 1,
+   "Semester": "U",
+   "YearTaught": 2021
+ }
+]

@@ -1,0 +1,97 @@
+[
+ {
+   "StaffID": "F1",
+   "DepartmentID": "D2",
+   "Phone": 6114
+ },
+ {
+   "StaffID": "F2",
+   "DepartmentID": "D2",
+   "Phone": 6177
+ },
+ {
+   "StaffID": "F3",
+   "DepartmentID": "D5",
+   "Phone": 2111
+ },
+ {
+   "StaffID": "F4",
+   "DepartmentID": "D4",
+   "Phone": 3229
+ },
+ {
+   "StaffID": "F5",
+   "DepartmentID": "D2",
+   "Phone": 6492
+ },
+ {
+   "StaffID": "F6",
+   "DepartmentID": "D3",
+   "Phone": 3566
+ },
+ {
+   "StaffID": "F7",
+   "DepartmentID": "D5",
+   "Phone": 2090
+ },
+ {
+   "StaffID": "F8",
+   "DepartmentID": "D3",
+   "Phone": 3109
+ },
+ {
+   "StaffID": "F9",
+   "DepartmentID": "D2",
+   "Phone": 6600
+ },
+ {
+   "StaffID": "F10",
+   "DepartmentID": "D4",
+   "Phone": 2002
+ },
+ {
+   "StaffID": "F11",
+   "DepartmentID": "D8",
+   "Phone": 1664
+ },
+ {
+   "StaffID": "F12",
+   "DepartmentID": "D8",
+   "Phone": 1544
+ },
+ {
+   "StaffID": "F13",
+   "DepartmentID": "D2",
+   "Phone": 6363
+ },
+ {
+   "StaffID": "F14",
+   "DepartmentID": "D9",
+   "Phone": 3666
+ },
+ {
+   "StaffID": "F15",
+   "DepartmentID": "D5",
+   "Phone": 2919
+ },
+ {
+   "StaffID": "F16",
+   "DepartmentID": "D1",
+   "Phone": 2711
+ },
+ {
+   "StaffID": "F17",
+   "DepartmentID": "D2",
+   "Phone": 6801
+ },
+ {
+   "StaffID": "F18",
+   "DepartmentID": "D8",
+   "Phone": 2610
+ },
+ {
+   "StaffID": "F19",
+   "DepartmentID": "D1",
+   "Phone": 2451
+ }
+]

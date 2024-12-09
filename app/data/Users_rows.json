@@ -1,0 +1,347 @@
+[
+ {
+   "username": "A1",
+   "role": "advisor1",
+   "password": "password"
+ },
+ {
+   "username": "A11",
+   "role": "advisor11",
+   "password": "password"
+ },
+ {
+   "username": "A12",
+   "role": "advisor12",
+   "password": "password"
+ },
+ {
+   "username": "A14",
+   "role": "advisor14",
+   "password": "password"
+ },
+ {
+   "username": "A15",
+   "role": "advisor15",
+   "password": "password"
+ },
+ {
+   "username": "A16",
+   "role": "advisor16",
+   "password": "password"
+ },
+ {
+   "username": "A17",
+   "role": "advisor17",
+   "password": "password"
+ },
+ {
+   "username": "A2",
+   "role": "advisor2",
+   "password": "password"
+ },
+ {
+   "username": "A20",
+   "role": "advisor20",
+   "password": "password"
+ },
+ {
+   "username": "A22",
+   "role": "advisor22",
+   "password": "password"
+ },
+ {
+   "username": "A23",
+   "role": "advisor23",
+   "password": "password"
+ },
+ {
+   "username": "A25",
+   "role": "advisor25",
+   "password": "password"
+ },
+ {
+   "username": "A26",
+   "role": "advisor26",
+   "password": "password"
+ },
+ {
+   "username": "A3",
+   "role": "advisor3",
+   "password": "password"
+ },
+ {
+   "username": "A4",
+   "role": "advisor4",
+   "password": "password"
+ },
+ {
+   "username": "A5",
+   "role": "advisor5",
+   "password": "password"
+ },
+ {
+   "username": "A6",
+   "role": "advisor6",
+   "password": "password"
+ },
+ {
+   "username": "A7",
+   "role": "advisor7",
+   "password": "password"
+ },
+ {
+   "username": "A8",
+   "role": "advisor8",
+   "password": "password"
+ },
+ {
+   "username": "A9",
+   "role": "advisor9",
+   "password": "password"
+ },
+ {
+   "username": "F1",
+   "role": "staff1",
+   "password": "password"
+ },
+ {
+   "username": "F10",
+   "role": "staff10",
+   "password": "password"
+ },
+ {
+   "username": "F11",
+   "role": "staff11",
+   "password": "password"
+ },
+ {
+   "username": "F12",
+   "role": "staff12",
+   "password": "password"
+ },
+ {
+   "username": "F13",
+   "role": "staff13",
+   "password": "password"
+ },
+ {
+   "username": "F14",
+   "role": "staff14",
+   "password": "password"
+ },
+ {
+   "username": "F15",
+   "role": "staff15",
+   "password": "password"
+ },
+ {
+   "username": "F16",
+   "role": "staff16",
+   "password": "password"
+ },
+ {
+   "username": "F17",
+   "role": "staff17",
+   "password": "password"
+ },
+ {
+   "username": "F18",
+   "role": "staff18",
+   "password": "password"
+ },
+ {
+   "username": "F19",
+   "role": "staff19",
+   "password": "password"
+ },
+ {
+   "username": "F2",
+   "role": "staff2",
+   "password": "password"
+ },
+ {
+   "username": "F3",
+   "role": "staff3",
+   "password": "password"
+ },
+ {
+   "username": "F4",
+   "role": "staff4",
+   "password": "password"
+ },
+ {
+   "username": "F5",
+   "role": "staff5",
+   "password": "password"
+ },
+ {
+   "username": "F6",
+   "role": "staff6",
+   "password": "password"
+ },
+ {
+   "username": "F7",
+   "role": "staff7",
+   "password": "password"
+ },
+ {
+   "username": "F8",
+   "role": "staff8",
+   "password": "password"
+ },
+ {
+   "username": "F9",
+   "role": "staff9",
+   "password": "password"
+ },
+ {
+   "username": "T1",
+   "role": "instructor1",
+   "password": "password"
+ },
+ {
+   "username": "T10",
+   "role": "instructor10",
+   "password": "password"
+ },
+ {
+   "username": "T2",
+   "role": "instructor2",
+   "password": "password"
+ },
+ {
+   "username": "T3",
+   "role": "instructor3",
+   "password": "password"
+ },
+ {
+   "username": "T4",
+   "role": "instructor4",
+   "password": "password"
+ },
+ {
+   "username": "T5",
+   "role": "instructor5",
+   "password": "password"
+ },
+ {
+   "username": "T6",
+   "role": "instructor6",
+   "password": "password"
+ },
+ {
+   "username": "T7",
+   "role": "instructor7",
+   "password": "password"
+ },
+ {
+   "username": "T8",
+   "role": "instructor8",
+   "password": "password"
+ },
+ {
+   "username": "T9",
+   "role": "instructor9",
+   "password": "password"
+ },
+ {
+   "username": "U1",
+   "role": "student1",
+   "password": "password"
+ },
+ {
+   "username": "U10",
+   "role": "student10",
+   "password": "password"
+ },
+ {
+   "username": "U11",
+   "role": "student11",
+   "password": "password"
+ },
+ {
+   "username": "U12",
+   "role": "student12",
+   "password": "password"
+ },
+ {
+   "username": "U13",
+   "role": "student13",
+   "password": "password"
+ },
+ {
+   "username": "U14",
+   "role": "student14",
+   "password": "password"
+ },
+ {
+   "username": "U15",
+   "role": "student15",
+   "password": "password"
+ },
+ {
+   "username": "U16",
+   "role": "student16",
+   "password": "password"
+ },
+ {
+   "username": "U17",
+   "role": "student17",
+   "password": "password"
+ },
+ {
+   "username": "U18",
+   "role": "student18",
+   "password": "password"
+ },
+ {
+   "username": "U19",
+   "role": "student19",
+   "password": "password"
+ },
+ {
+   "username": "U2",
+   "role": "student2",
+   "password": "password"
+ },
+ {
+   "username": "U20",
+   "role": "student20",
+   "password": "password"
+ },
+ {
+   "username": "U3",
+   "role": "student3",
+   "password": "password"
+ },
+ {
+   "username": "U4",
+   "role": "student4",
+   "password": "password"
+ },
+ {
+   "username": "U5",
+   "role": "student5",
+   "password": "password"
+ },
+ {
+   "username": "U6",
+   "role": "student6",
+   "password": "password"
+ },
+ {
+   "username": "U7",
+   "role": "student7",
+   "password": "password"
+ },
+ {
+   "username": "U8",
+   "role": "student8",
+   "password": "password"
+ },
+ {
+   "username": "U9",
+   "role": "student9",
+   "password": "password"
+ }
+]

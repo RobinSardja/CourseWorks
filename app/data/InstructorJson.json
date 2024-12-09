@@ -1,0 +1,80 @@
+[
+ {
+   "InstructorID": "T1",
+   "InstructorPhone": 2203,
+   "DepartmentID": "D2",
+   "HiredSemester": "F2015"
+ },
+ {
+   "InstructorID": "T2",
+   "InstructorPhone": 2219,
+   "DepartmentID": "D2",
+   "HiredSemester": "F2017"
+ },
+ {
+   "InstructorID": "T3",
+   "InstructorPhone": 5461,
+   "DepartmentID": "D4",
+   "HiredSemester": "S2017"
+ },
+ {
+   "InstructorID": "T4",
+   "InstructorPhone": 2390,
+   "DepartmentID": "D2",
+   "HiredSemester": "F2008"
+ },
+ {
+   "InstructorID": "T5",
+   "InstructorPhone": 3018,
+   "DepartmentID": "D2",
+   "HiredSemester": "F2010"
+ },
+ {
+   "InstructorID": "T6",
+   "InstructorPhone": 5517,
+   "DepartmentID": "D5",
+   "HiredSemester": "F2015"
+ },
+ {
+   "InstructorID": "T7",
+   "InstructorPhone": 2018,
+   "DepartmentID": "D2",
+   "HiredSemester": "S2015"
+ },
+ {
+   "InstructorID": "T8",
+   "InstructorPhone": 3108,
+   "DepartmentID": "D1",
+   "HiredSemester": "S2016"
+ },
+ {
+   "InstructorID": "T9",
+   "InstructorPhone": 7211,
+   "DepartmentID": "D3",
+   "HiredSemester": "F2011"
+ },
+ {
+   "InstructorID": "T10",
+   "InstructorPhone": 2653,
+   "DepartmentID": "D6",
+   "HiredSemester": "F2004"
+ },
+ {
+   "InstructorID": "T11",
+   "InstructorPhone": 4517,
+   "DepartmentID": "D9",
+   "HiredSemester": "F2010"
+ },
+ {
+   "InstructorID": "T12",
+   "InstructorPhone": 1802,
+   "DepartmentID": "D8",
+   "HiredSemester": "S2016"
+ },
+ {
+   "InstructorID": "T13",
+   "InstructorPhone": 6229,
+   "DepartmentID": "D7",
+   "HiredSemester": "S2016"
+ }
+]

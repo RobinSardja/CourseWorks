@@ -1,0 +1,218 @@
+[
+ {
+   "DepartmentID": "D1",
+   "Building": "G",
+   "Office": 233,
+   "MajorOffered": "ART",
+   "TotalHoursReq": 126,
+   "AdvisorID": "A6",
+   "AdvisorPhone": 1117
+ },
+ {
+   "DepartmentID": "D2",
+   "Building": "R",
+   "Office": 1045,
+   "MajorOffered": "CS",
+   "TotalHoursReq": 122,
+   "AdvisorID": "A1",
+   "AdvisorPhone": 2002
+ },
+ {
+   "DepartmentID": "D2",
+   "Building": "R",
+   "Office": 1045,
+   "MajorOffered": "CS",
+   "TotalHoursReq": 122,
+   "AdvisorID": "A2",
+   "AdvisorPhone": 2324
+ },
+ {
+   "DepartmentID": "D2",
+   "Building": "R",
+   "Office": 1045,
+   "MajorOffered": "IT",
+   "TotalHoursReq": 124,
+   "AdvisorID": "A3",
+   "AdvisorPhone": 2717
+ },
+ {
+   "DepartmentID": "D2",
+   "Building": "R",
+   "Office": 1045,
+   "MajorOffered": "IT",
+   "TotalHoursReq": 124,
+   "AdvisorID": "A4",
+   "AdvisorPhone": 2888
+ },
+ {
+   "DepartmentID": "D2",
+   "Building": "R",
+   "Office": 1045,
+   "MajorOffered": "CyS",
+   "TotalHoursReq": 122,
+   "AdvisorID": "A5",
+   "AdvisorPhone": 2202
+ },
+ {
+   "DepartmentID": "D2",
+   "Building": "R",
+   "Office": 1045,
+   "MajorOffered": "CyS",
+   "TotalHoursReq": 122,
+   "AdvisorID": "A6",
+   "AdvisorPhone": 2329
+ },
+ {
+   "DepartmentID": "D2",
+   "Building": "R",
+   "Office": 1045,
+   "MajorOffered": "CyS",
+   "TotalHoursReq": 122,
+   "AdvisorID": "A7",
+   "AdvisorPhone": 2555
+ },
+ {
+   "DepartmentID": "D2",
+   "Building": "R",
+   "Office": 1045,
+   "MajorOffered": "IS",
+   "TotalHoursReq": 126,
+   "AdvisorID": "A8",
+   "AdvisorPhone": 2007
+ },
+ {
+   "DepartmentID": "D3",
+   "Building": "H",
+   "Office": 2120,
+   "MajorOffered": "EE",
+   "TotalHoursReq": 124,
+   "AdvisorID": "A17",
+   "AdvisorPhone": 3090
+ },
+ {
+   "DepartmentID": "D3",
+   "Building": "H",
+   "Office": 2120,
+   "MajorOffered": "EE",
+   "TotalHoursReq": 124,
+   "AdvisorID": "A20",
+   "AdvisorPhone": 3311
+ },
+ {
+   "DepartmentID": "D3",
+   "Building": "H",
+   "Office": 2120,
+   "MajorOffered": "CpE",
+   "TotalHoursReq": 126,
+   "AdvisorID": "A11",
+   "AdvisorPhone": 3414
+ },
+ {
+   "DepartmentID": "D4",
+   "Building": "H",
+   "Office": 1064,
+   "MajorOffered": "EDU",
+   "TotalHoursReq": 120,
+   "AdvisorID": "A12",
+   "AdvisorPhone": 7209
+ },
+ {
+   "DepartmentID": "D5",
+   "Building": "G",
+   "Office": 118,
+   "MajorOffered": "MATH",
+   "TotalHoursReq": 120,
+   "AdvisorID": "A22",
+   "AdvisorPhone": 4314
+ },
+ {
+   "DepartmentID": "D5",
+   "Building": "G",
+   "Office": 118,
+   "MajorOffered": "MATH",
+   "TotalHoursReq": 120,
+   "AdvisorID": "A23",
+   "AdvisorPhone": 4412
+ },
+ {
+   "DepartmentID": "D5",
+   "Building": "G",
+   "Office": 118,
+   "MajorOffered": "MATH",
+   "TotalHoursReq": 120,
+   "AdvisorID": "A25",
+   "AdvisorPhone": 4887
+ },
+ {
+   "DepartmentID": "D5",
+   "Building": "G",
+   "Office": 118,
+   "MajorOffered": "MEDU",
+   "TotalHoursReq": 124,
+   "AdvisorID": "A14",
+   "AdvisorPhone": 1445
+ },
+ {
+   "DepartmentID": "D6",
+   "Building": "M",
+   "Office": 36,
+   "MajorOffered": "SOC",
+   "TotalHoursReq": 120,
+   "AdvisorID": "A15",
+   "AdvisorPhone": 2710
+ },
+ {
+   "DepartmentID": "D7",
+   "Building": "G",
+   "Office": 104,
+   "MajorOffered": "ACCT",
+   "TotalHoursReq": 122,
+   "AdvisorID": "A16",
+   "AdvisorPhone": 5110
+ },
+ {
+   "DepartmentID": "D7",
+   "Building": "G",
+   "Office": 104,
+   "MajorOffered": "MKT",
+   "TotalHoursReq": 126,
+   "AdvisorID": "A9",
+   "AdvisorPhone": 5116
+ },
+ {
+   "DepartmentID": "D8",
+   "Building": "M",
+   "Office": 32,
+   "MajorOffered": "BIOL",
+   "TotalHoursReq": 120,
+   "AdvisorID": "A17",
+   "AdvisorPhone": 2800
+ },
+ {
+   "DepartmentID": "D9",
+   "Building": "H",
+   "Office": 1152,
+   "MajorOffered": "PHY",
+   "TotalHoursReq": 124,
+   "AdvisorID": "A26",
+   "AdvisorPhone": 1528
+ },
+ {
+   "DepartmentID": "",
+   "Building": "",
+   "Office": null,
+   "MajorOffered": "",
+   "TotalHoursReq": null,
+   "AdvisorID": "",
+   "AdvisorPhone": null
+ },
+ {
+   "DepartmentID": "",
+   "Building": "",
+   "Office": null,
+   "MajorOffered": "",
+   "TotalHoursReq": null,
+   "AdvisorID": "",
+   "AdvisorPhone": null
+ }
+]
