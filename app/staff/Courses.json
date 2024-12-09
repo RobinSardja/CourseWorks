@@ -1,0 +1,92 @@
+[
+ {
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4104,
+   "Credits": 4,
+   "DepartmentID": "D2"
+ },
+ {
+   "CoursePrefix": "CNT",
+   "CourseNumber": 4100,
+   "Credits": 1,
+   "DepartmentID": "D2"
+ },
+ {
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Credits": 4,
+   "DepartmentID": "D2"
+ },
+ {
+   "CoursePrefix": "COP",
+   "CourseNumber": 4703,
+   "Credits": 3,
+   "DepartmentID": "D2"
+ },
+ {
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2233,
+   "Credits": 3,
+   "DepartmentID": "D2"
+ },
+ {
+   "CoursePrefix": "CIS",
+   "CourseNumber": 2003,
+   "Credits": 3,
+   "DepartmentID": "D2"
+ },
+ {
+   "CoursePrefix": "CIS",
+   "CourseNumber": 3433,
+   "Credits": 3,
+   "DepartmentID": "D2"
+ },
+ {
+   "CoursePrefix": "CIS",
+   "CourseNumber": 4935,
+   "Credits": 4,
+   "DepartmentID": "D2"
+ },
+ {
+   "CoursePrefix": "COP",
+   "CourseNumber": 2512,
+   "Credits": 3,
+   "DepartmentID": "D2"
+ },
+ {
+   "CoursePrefix": "ARH",
+   "CourseNumber": 3001,
+   "Credits": 1,
+   "DepartmentID": "D1"
+ },
+ {
+   "CoursePrefix": "ART",
+   "CourseNumber": 3635,
+   "Credits": 3,
+   "DepartmentID": "D1"
+ },
+ {
+   "CoursePrefix": "EGN",
+   "CourseNumber": 3420,
+   "Credits": 1,
+   "DepartmentID": "D3"
+ },
+ {
+   "CoursePrefix": "EEL",
+   "CourseNumber": 4914,
+   "Credits": 4,
+   "DepartmentID": "D3"
+ },
+ {
+   "CoursePrefix": "PHY",
+   "CourseNumber": 2048,
+   "Credits": 3,
+   "DepartmentID": "D9"
+ },
+ {
+   "CoursePrefix": "ZOO",
+   "CourseNumber": 1404,
+   "Credits": 1,
+   "DepartmentID": "D8"
+ }
+]
