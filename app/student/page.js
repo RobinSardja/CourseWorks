@@ -21,24 +21,24 @@ export default function StudentDashboard() {
             <p>Name: John Doe</p>
             <p>Major: Computer Science</p>
             <p>Ranking: Junior</p>
-            <p>ID Number: 123456</p>
+            <p>ID Number: U11</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow">
             <h2 className="text-2xl font-semibold mb-4">Enrolled Courses</h2>
             <ul>
-              <li>CS 101 - Introduction to Programming, Prof. Smith, Mon/Wed/Fri 10:00-11:00 AM</li>
-              <li>MATH 200 - Calculus, Prof. Johnson, Tue/Thu 1:00-2:30 PM</li>
-              <li>PHYS 150 - Physics, Prof. Lee, Mon/Wed 3:00-4:30 PM</li>
+              <li>CIS 4935 Fall 2024</li>
+              <li>CNT 4104 Fall 2024</li>
             </ul>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow">
             <h2 className="text-2xl font-semibold mb-4">Past Courses</h2>
             <ul>
-              <li>CS 100 - Basics of Computer Science, Prof. Brown, Fall 2023</li>
-              <li>ENG 101 - English Literature, Prof. Davis, Spring 2023</li>
-              <li>HIST 110 - World History, Prof. Wilson, Fall 2022</li>
+              <li>COP 2512 Spring 2024</li>
+              <li>ZOO 1404 Spring 2024</li>
+              <li>CDA 3103 Fall 2023</li>
+              <li>ENC 1101 Fall 2023</li>
             </ul>
           </div>
 
